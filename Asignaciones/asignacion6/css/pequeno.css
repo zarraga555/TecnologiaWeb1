@@ -1,0 +1,54 @@
+@media (min-width: 360px) and (max-width: 420px) { 
+
+    .container-footer{
+        flex-wrap: wrap;
+    }
+    .logo-redes{
+        width: 100%;
+    }
+    .soporte, .listas-footer, .ciudades{
+        margin-top: 40px;
+    }
+    .h2-footer{
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    .bienvenido{
+        position: absolute;
+        padding: 5px;
+        padding-top: 220px;
+        width: 60%;
+        margin-left: 20px;
+    }
+    .bienvenido h1{
+        font-size: 2em;
+    }
+    .btn {
+        margin-top: 20px;
+    }
+    .img-header-information:before{
+        width: 70%;
+    }
+    .container.header{
+        width: 70%;
+    }
+    .bienvenido-information{
+        padding: 15px;
+        width: 90%;
+        padding-top: 150px;
+        padding-right: 0;
+        padding-left: 10px;
+        
+    }
+    .container-header{
+        width: 95%;
+    }
+    
+    .bienvenido-information h1 {
+        color: #fff;
+        font-size: 45px;
+        line-height: 1;
+        margin-bottom: 70px;
+    }
+
+}
