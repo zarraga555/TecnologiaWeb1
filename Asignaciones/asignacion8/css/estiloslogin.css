@@ -1,0 +1,126 @@
+header {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: relative;
+    z-index: 99;
+}
+.container-information{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.container-info{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+form{
+    display: block;
+}
+.div-info{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.formulario-information{
+    width: 600px;
+    /*background-color: yellow;*/
+    margin-right: 67.5px;
+    
+}
+.mapa-information{
+    width: 600px;
+    /*background-color: red;*/
+    
+}
+.form-control{
+    border: none;
+    border-bottom: 1px solid #c1c1c1;
+    border-radius: 0;
+    margin-bottom: 20px;
+    padding: 15px 0;
+    font-size: 15px;
+    line-height: 1;
+    background-color: transparent;
+    color: rgba(51, 51, 51, 0.60);
+    display: block;
+    width: 100%;
+    background-image: none;
+    background-clip: padding-box;
+}
+.div-titulo h2{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 50px;
+}
+input[type="submit"], .btnform{
+    display: inline-block;
+    min-width: 180px;
+    height: 50px;
+    font-weight: 500;
+    background-color: #DDDDDD;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px 50px 50px 50px;
+    color: black;
+    border-style: none;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+input[type="submit"]:hover, .btnform:hover{
+    cursor: pointer;
+    background-color: #544BDC;
+    color: white;
+    transition: all 300ms;
+}
+.mapa-information{
+    width: 600px;
+    /* background-color: yellow; */
+    margin-left: 67.5px;
+    padding: 20px;
+}
+.information-div{
+    padding: 20px;
+}
+.title-info{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.lblradio{
+    color: rgba(51, 51, 51, 0.60);
+    margin-left: 20px;
+    margin-right: 12px;
+}
+.lbl-control{
+    margin-right: 10px;
+}
+.lbl-info{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 25px;
+}
+.lbl-title{
+    color: rgba(51, 51, 51, 0.60);
+    margin-bottom: 20px;
+    width: 100%;
+    min-height: 1px;
+}
