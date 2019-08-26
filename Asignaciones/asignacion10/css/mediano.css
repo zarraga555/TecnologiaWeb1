@@ -1,0 +1,37 @@
+@media (min-width: 768px) and (max-width: 1025px) { 
+.bienvenido{
+    position: absolute;
+    padding: 50px;
+    width: 60%;
+    padding-top: 290px;
+}
+
+}
+
+@media  (min-width: 768px) and (max-width: 1000px){
+    .bienvenido{
+        position: absolute;
+        padding: 50px;
+        width: 80%;
+        padding-top: 290px;
+    }
+}
+/*Para Horizontal*/
+@media (min-width: 1300px) and (max-width: 1360px){
+    .bienvenido{
+        position: absolute;
+        padding: 50px;
+        width: 50%;
+        padding-top: 250px;
+    
+    }
+}
+@media (min-width: 1024px) and (max-width: 1300px){
+    .bienvenido{
+        position: absolute;
+        padding: 50px;
+        width: 60%;
+        padding-top: 280px;
+    
+    }
+}
