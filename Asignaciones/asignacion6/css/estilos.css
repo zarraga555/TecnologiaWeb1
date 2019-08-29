@@ -446,3 +446,8 @@ display: flex;
 
 }
 
+.hora{
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
