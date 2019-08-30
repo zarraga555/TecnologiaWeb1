@@ -1,0 +1,19 @@
+{
+    "ciudades":[
+        {
+            "nombre": "cochabamba",
+            "titulo" : "Historia de Cochabamba",
+            "historia": "Cochabamba es una ciudad boliviana capital del departamento homónimo y de la provincia de Cercado. Se encuentra situada en el centro del país en el valle del mismo nombre. Tiene una población de 1 113 474 habitantes en el área metropolitana (Censo 2012)1​ y pertenece a la Región metropolitana de Kanata junto a los municipios de Sacaba Quillacollo Colcapirhua Tiquipaya Vinto y Sipe Sipe. Cochabamba se encuentra en un valle de tierra fértil y productiva a 2558 m de altura. La ciudad rodeada por campos de cultivos y valiosos vestigios preincaicos e incaicos conserva su personalidad virreinal. La ciudad de Cochabamba cuenta con el IDH más alto por municipio en Bolivia siendo de 0.741 superando a Santa Cruz de la Sierra, Camiri y La Paz (siguientes ciudades en el ranking de IDH)"
+        },
+        {
+            "nombre": "santa cruz",
+            "titulo": "Historia de Santa Cruz de la Sierra",
+            "historia": "Santa Cruz de la Sierra es una ciudad de Bolivia,capital del Departamento de Santa Cruz. Está situada en la parte oriental del país, sobre la llanura, a orillas del río Piraíy el plan 3000. Es la ciudad más poblada del país2​ y cuenta con más de 2 millones de habitantes en su área metropolitana. Fundada el 26 de febrero de 1561 por el capitán español Ñuflo de Chávez, la ciudad sufrió varios cambios de ubicación.4​ En el siglo XVII, la zona se convierte en centro de expediciones misioneras evangelizadoras.5​ El 24 de septiembre de 1810 se da su primer grito libertario contra el dominio español.6​ A inicios de siglo XX, en el sur, se desata la guerra por el territorio del Chaco.7​ Desde los años 1950, debido a la integración física con el resto del país, la ciudad experimenta un fuerte crecimiento demográfico.8​ Actualmente está considerada como centro económico de Bolivia, destacando la industria agropecuaria, forestal, minera y de hidrocarburos."
+        },
+        {
+            "nombre": "la paz",
+            "titulo": "Historia de La Paz",
+            "historia": "La Paz, oficialmente Nuestra Señora de La Paz (en aimara: Chuquiago Marka), es la Sede de Gobierno del Estado Plurinacional de Bolivia. Es el centro político, cultural y financiero más importante de Bolivia.6​7​ La urbe además es capital del departamento homónimo. Con una población estimada de 789 541 habitantes, en 2015, La Paz es la tercera ciudad más poblada del país, detrás de Santa Cruz de la Sierra y El Alto.8​ Su área metropolitana, que incluye a los municipios vecinos de El Alto, Viacha, Achocalla, Laja, Mecapaca, Palca y Pucarani, es la más poblada del país, llegando a tener una población de 1,87 millones de habitantes según el censo oficial de 2012.9​ Ubicada en el oeste de Bolivia, a 68 km al sureste del lago Titicaca, La Paz está situada en un cañón creado por el río Choqueyapu y está rodeada por las altas montañas del altiplano, entre ellas el imponente nevado Illimani, cuya silueta ha sido el emblema más importante de la ciudad desde su fundación.10​11​ A una altura promedio de 3650 msnm, La Paz es la metrópoli más alta del mundo.12​13​14​ Debido a su elevación, La Paz tiene un clima subtropical de altura, con veranos lluviosos e inviernos secos."
+        }
+    ]
+}

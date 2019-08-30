@@ -1,0 +1,255 @@
+@media (min-width: 360px) and (max-width: 420px) {
+    .container-footer, .container-info {
+        flex-wrap: wrap;
+    }
+    .logo-redes {
+        width: 100%;
+    }
+    .soporte, .listas-footer, .ciudades {
+        margin-top: 40px;
+    }
+    .h2-footer {
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    .bienvenido {
+        position: absolute;
+        padding: 5px;
+        padding-top: 220px;
+        width: 60%;
+        margin-left: 20px;
+    }
+    .bienvenido h1 {
+        font-size: 2em;
+    }
+    .btn {
+        margin-top: 20px;
+    }
+    .img-header-information:before {
+        width: 70%;
+    }
+    .container.header {
+        width: 70%;
+    }
+    .bienvenido-information {
+        padding: 15px;
+        width: 90%;
+        padding-top: 150px;
+        padding-right: 0;
+        padding-left: 10px;
+    }
+    .container-header {
+        width: 95%;
+    }
+    .bienvenido-information h1 {
+        color: #fff;
+        font-size: 45px;
+        line-height: 1;
+        margin-bottom: 70px;
+    }
+    .formulario-information {
+        width: 100%;
+        margin-right: 0;
+        padding: 50px 15px;
+    }
+    .container-info {
+        width: 100%;
+    }
+    .container-information {
+        padding: 10px;
+    }
+    /*Navegacion*/
+  /*  nav {
+        margin: 0;
+        max-width: 760px;
+        background-color: #000;
+        height: auto;
+        text-align: right;
+        width: auto;
+        padding: 0;
+    }*/
+  /*  .container {
+        width: 80%;
+        margin: auto;
+        height: auto;
+        position: relative;
+        box-sizing: border-box;
+        padding: 0;
+    }*//*
+    .navigation {
+        list-style: none;
+        text-align: center;
+        padding: 0;
+    }
+    .navigation li:first-child {
+        display: block;
+    }
+    .navigation li {
+        display: none;
+    }
+    .navigation a {
+        display: block;
+        color: #fff;
+        padding: 0.75rem;
+        text-align: center;
+        text-decoration: none;
+    }
+    .navigation a:hover {
+        color: #000;
+        color: #fff;
+        font-weight: 700;
+    }
+    .responsive li {
+        display: block;
+        height: auto;
+        width: auto;
+        text-align: center;
+        color: #fff
+    }*/
+    .mapa-information {
+        width: 600px;
+        margin-left: 0;
+    }
+    .contaniner-city {
+        padding: 0;
+        width: 90%;
+    }
+    .section-city {
+        width: 90%;
+    }
+
+
+
+    .menu {
+        background: #FFF;
+        border-radius: 50%;
+        top: 25px;
+        box-shadow: 0 0 0 0 #FFF, 0 0 0 0 #FFF;
+        cursor: pointer;
+        height: 60px;
+        position: absolute;
+        right: 25px;
+        transition: box-shadow 1.1s cubic-bezier(.19, 1, .22, 1);
+        width: 60px;
+        z-index: 2;
+    }
+    
+    .menu:hover {
+        box-shadow: 0 0 0 8px #FFF, 0 0 0 8px #FFF;
+    }
+    
+    .hamburger {
+        position: relative;
+        top: 29px;
+        left: 15px;
+        width: 30px;
+        height: 2px;
+        background: #000;
+        display: block;
+        transform-origin: center;
+        transition: .5s ease-in-out;
+    }
+    
+    .hamburger::after{
+        background: #000;
+        content: "";
+        display: block;
+        transition: .5s ease-in-out;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    .hamburger::before{
+        background: #000;
+        content: "";
+        display: block;
+        transition: .5s ease-in-out;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    .hamburger:before {
+        top: -10px;
+    }
+    
+    .hamburger:after {
+        bottom: -10px;
+    }
+    
+    input {
+        display: none;
+    }
+    
+    input:checked ~ .lbl-nav .menu {
+        box-shadow: 0 0 0 130vw #FFF, 0 0 0 130vh #FFF;
+    }
+    
+    input:checked ~ .lbl-nav .hamburger {
+        transform: rotate(45deg);
+    }
+    
+    input:checked ~ .lbl-nav .hamburger:after {
+        transform: rotate(90deg);
+        bottom: 0;
+    }
+    
+    input:checked ~ .lbl-nav .hamburger:before {
+        transform: rotate(90deg);
+        top: 0;
+    }
+    
+    input:checked ~ .navigation-nav ul {
+        opacity: 1;
+    }
+    
+    .navigation-nav ul {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        list-style: none;
+        font-size: 45px;
+        opacity: 0;
+        transition: .25s .1s cubic-bezier(0, 1.07, 0, 1.02);
+        z-index: 2;
+    }
+    
+    .navigation-nav li a {
+        color: #FF5300;
+        transition: all 300ms;
+        position: relative;
+    }
+    
+    .navigation-nav li a:before {
+        content: '';
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 0;
+        height: 4px;
+        background: #7F4326;
+        transition: all 300ms cubic-bezier(1, 0, 0, 1);
+    }
+    
+    .navigation-nav li a:hover:before {
+        width: 110%;
+    }
+    
+    .navigation-nav li a:hover {
+        color: #7F2900;
+    }
+    
+    .navigation-nav a {
+        color: #00cec9;
+        display: block;
+        margin-bottom: 1em;
+        text-decoration: none;
+    }
+    
+    
+    
+
+
+    
+    
+}
